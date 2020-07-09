@@ -1,0 +1,6 @@
+-- 코드 5-13 복잡한 형태인 GROUP BY 절
+
+...
+GROUP BY CustCity, CustState, CustZip, YEAR(OrderDate),
+  MONTH(OrderDate), EmployeeID
+...
