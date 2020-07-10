@@ -1,0 +1,6 @@
+# 코드 7-3 윈도우 x64에서 x86 버전의 액세스 2013의 실행 계획을 볼 수 있는 플래그 설정 레지스트리 키
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\15.0\Access Connectivity Engine\Engines\Debug]
+"JETSHOWPLAN"="ON"

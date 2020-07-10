@@ -1,0 +1,4 @@
+-- 코드 7-16 뷰에서 사용된 테이블과 컬럼 정보 가져오기
+
+SELECT vcu.VIEW_NAME, vuc.TABLE_NAME, vcu.COLUMN_NAME
+FROM INFORMATION_SCHEMA.VIEW_COLUMN_USAGE AS vcu;
